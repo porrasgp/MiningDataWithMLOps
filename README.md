@@ -15,26 +15,29 @@ El framework incluye los siguientes módulos:
 
 ## 📂 Estructura del Proyecto
 
+# Estructura del Proyecto 📂
+
 data_analysis_framework/
 │
-├── framework/
-│   ├── unsupervised.py       # 🔍 Análisis no supervisado (PCA, K-means, etc.)
-│   ├── supervised.py         # 📈 Clasificación (KNN, Árboles de decisión, etc.)
-│   ├── regression.py         # 📉 Regresión (lineal, Lasso, Ridge, etc.)
-│   ├── association.py        # 🔗 Reglas de asociación (Apriori)
-│   ├── deep_learning.py      # 🤖 Deep Learning (redes neuronales)
-│   ├── time_series.py        # 📆 Series de tiempo (Holt-Winters, ARIMA)
-│   └── data_loader.py        # 📂 Carga de datos de SQL/NoSQL o sitios web
+├── framework/                     # Módulos de análisis de datos
+│   ├── unsupervised.py            # 🔍 Análisis no supervisado (PCA, K-means, etc.)
+│   ├── supervised.py              # 📈 Clasificación (KNN, Árboles de decisión, etc.)
+│   ├── regression.py              # 📉 Regresión (lineal, Lasso, Ridge, etc.)
+│   ├── association.py             # 🔗 Reglas de asociación (Apriori)
+│   ├── deep_learning.py           # 🤖 Deep Learning (redes neuronales)
+│   ├── time_series.py             # 📆 Series de tiempo (Holt-Winters, ARIMA)
+│   └── data_loader.py             # 📂 Carga de datos de SQL/NoSQL o sitios web
 │
-├── frontend/
-│   └── app.py                # 🌐 Interfaz gráfica en Streamlit
+├── frontend/                      # Interfaz gráfica
+│   └── app.py                     # 🌐 Interfaz gráfica en Streamlit
 │
-├── tests/                    # ✅ Pruebas unitarias
+├── tests/                         # ✅ Pruebas unitarias
 │   ├── test_unsupervised.py
 │   ├── test_supervised.py
 │   └── ...
 │
-└── README.md                 # 📝 Descripción del proyecto
+└── README.md                      # 📝 Descripción del proyecto
+
 
 
 
